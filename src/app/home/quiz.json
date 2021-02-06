@@ -1,0 +1,12 @@
+[{
+    "question": "IC chips used in computers are usually made of",
+    "options":
+"A. Lead,B. Silicon,C. Chromium,D. Gold","answer":"B"},
+{"question":"One kilobyte is equal to","options":"A.1000 bytes,B.100bytes,C.1024 bytes,D.1023 bytes","answer":"c"},
+{"question":"who is the father of computer","options":"A.Charles Babbage, B. Albert Einstein, C.Edwin Adlin, D. James Gosling"},
+{"question":"Founder of Microsoft","options":"A.Bill Gates, B. Sundar Pichai,C. Zuckerberg,D.Satyamurthi"} ,
+{
+    "question":"when india got freedom","options":"A.1947,B.1989,C.1878,D.1979"
+}
+
+]

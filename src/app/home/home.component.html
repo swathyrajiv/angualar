@@ -1,0 +1,29 @@
+
+<form style="text-align: left;">
+<table>      
+<tbody>
+    <tr *ngFor ="let question of questions">
+        <td>{{question.question}}</td>
+        <br>
+        <td>{{question.options}}</td>
+         
+        </tr> 
+        <td><input type="text" class="form-control" ng-required= "true" [(ngModel)]=myVar1 name = "myVar"  /></td>
+        <tr></tr>
+        <td><input type="text" class="form-control" ng-required = "true"[(ngModel)]=myVar2 name = "myVar" /></td>
+        <tr></tr>
+        <td><input type="text" class="form-control" ng-required = "true" [(ngModel)]=myVar3 name = "myVar" /></td>
+        <tr></tr>
+        <td><input type="text" class="form-control" ng-required = "true"[(ngModel)]=myVar4 name = "myVar" /></td>
+        <tr></tr>
+        <td><input type="text" class="form-control" ng-required = "true" [(ngModel)]=myVar5  name = "myVar" /></td>
+        <tr></tr>
+           <input type="submit"  class = "form-control" value="submit" class="btn btn-primary"name ="button" (click)="verifyAnswer()" required>
+        
+           <h2>your score is  {{decimal}}</h2>
+       
+          
+ </tbody>
+</table>
+
+</form> 
