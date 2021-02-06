@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
     this.decimal++;
     alert("right");
     }else
-    alert("wrong");
+    alert("wrong  "+this.ans1+" correct answer");
   }
   if(!this.myVar2)
   alert("please enter an answer");
@@ -52,7 +52,7 @@ export class HomeComponent implements OnInit {
       this.decimal++;
       alert("right");
       }else
-      alert("wrong");
+      alert("wrong  "+this.ans2+"  correct answer");
     }
     if(!this.myVar3)
   alert("please enter an answer");
@@ -62,7 +62,7 @@ export class HomeComponent implements OnInit {
         this.decimal++;
         alert("right");
         }else
-        alert("wrong");
+        alert("wrong  "+this.ans3+" is correct answer");
       }
       if(!this.myVar4)
   alert("please enter an answer");
@@ -72,7 +72,7 @@ export class HomeComponent implements OnInit {
           this.decimal++;
           alert("right");
           }else
-          alert("wrong");
+          alert("wrong  "+this.ans4+" is correct answer");
         }if(!this.myVar5)
         alert("please enter an answer");
         else{
@@ -82,8 +82,10 @@ export class HomeComponent implements OnInit {
             alert("right");
             
             }else
-            alert("wrong");
+            alert("wrong  "+this.ans5+"  is correct answer");
           }
+          if(this.decimal==5)
+          {alert("congratulations you have scored full");}
             console.log(this.decimal);
   }
 
